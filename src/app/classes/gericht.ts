@@ -28,3 +28,6 @@ export class Gericht {
    */
   Preis: number;
 }
+export class Vorspeise{
+  
+}

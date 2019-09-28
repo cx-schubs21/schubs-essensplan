@@ -1,19 +1,33 @@
 .Gericht{
-    max-width: 33%;
+    position: relative;
+    max-width: 30%;
 }
 .Preis {
     color:green;
     font-size:17pt;
+    text-align: center;
+
 }
 .ImagePfad{
-       width: 700px;
+    height: 300px;
+    object-fit: cover;
 }
 .Kategorie{
-    font-size:15pt;
+ font-size:15pt;
+ text-align: center;
+
 }
 .Bezeichnung{
-    font-size:25pt;
+ font-size:20pt;
+ text-align: center;
 }
 .div{
-    display:flex;
+ display:flex;
+ flex-wrap: wrap;
+}
+
+.Vorspeise {
+    position: relative; 
+    display: flex;
+    position: relative;    
 }
